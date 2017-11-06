@@ -1,0 +1,305 @@
+.banner {
+  width: 100%;
+  height: 715px;
+  background: url("../img/banner-bg.jpg") center center no-repeat;
+  background-size: cover ;
+}
+.banner .banner-center {
+  width: 1200px;
+  height: 715px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+.banner .banner-center .banner-icon {
+  margin-top: 110px;
+}
+.banner .banner-center h2 {
+  font-weight: lighter;
+  color: #5A9A9F;
+  font-size: 60px;
+  margin-top: 22px;
+  font-family: "������ͤ��ϸ�ڼ���";
+}
+.banner .banner-center p {
+  width: 706px;
+  margin: 0 auto;
+  margin-top: 22px;
+  color: #5A9A9F;
+  font-size: 26px;
+  line-height: 52px;
+}
+.banner .banner-center .download {
+  width: 188px;
+  height: 45px;
+  border: 1px solid #5B9BA0;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: transparent;
+  transition: all .4s ease;
+}
+.banner .banner-center .download:hover {
+  background: #e7e7e7;
+}
+.banner .banner-center .download img {
+  position: relative;
+  left: -3px;
+}
+.banner .banner-center .download span {
+  position: relative;
+  left: 3px;
+  top: -2px;
+  color: #5A9A9F;
+  font-size: 20px;
+}
+.banner .banner-center .github {
+  width: 109px;
+  height: 37px;
+  background: #5B9BA0;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 37px;
+  color: white;
+  font-size: 18px;
+}
+.banner .banner-center .github img {
+  position: relative;
+  top: 5px;
+  margin-left: -3px;
+  margin-right: 3px;
+}
+.content {
+  margin: 0 auto;
+  width: 1200px;
+  height: auto;
+  box-shadow: 0 0 15px #acacac;
+  margin-top: -55px;
+  background: white;
+  padding: 10px 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+.content ul {
+  overflow: hidden;
+}
+.content ul li {
+  margin-top: 40px;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.content ul li.flr .ner .code-box {
+  float: right;
+}
+.content ul li.w100 .ner {
+  width: 100%;
+}
+.content ul li.w100 .ner .code-box {
+  width: 100%;
+}
+.content ul li h3 {
+  color: #137077;
+  height: 24px;
+  line-height: 22px;
+  font-weight: 500;
+  padding-left: 17px;
+  font-size: 24px;
+  border-left: 6px solid #137077;
+}
+.content ul li .ner {
+  overflow: hidden;
+  margin-top: 35px;
+}
+.content ul li .ner .code-box {
+  width: 634px;
+  padding: 20px 35px;
+  box-sizing: border-box;
+  background: url("../img/code-bg.jpg") repeat;
+  background-size: auto 100%;
+  float: left;
+}
+.content ul li .ner .code-box pre {
+  width: 100%;
+  font-size: 16px;
+  line-height: 23px;
+  color: #59999F;
+}
+.content ul li .ner .code-box pre span {
+  font-size: 16px;
+}
+.content ul li .ner .code-box pre span.red {
+  font-size: 16px;
+  color: #FF3F00;
+  font-weight: bold;
+}
+.content ul li .ner .code-box pre span.yellow {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFBF00;
+}
+.content ul li .ner .effect {
+  float: left;
+}
+@media (max-width: 1024px) {
+  .banner {
+    width: 100%;
+    height: auto;
+    background: url("../img/banner-bg.jpg") center center no-repeat;
+    background-size: cover ;
+  }
+  .banner .banner-center {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1.6rem;
+    overflow: hidden;
+  }
+  .banner .banner-center .banner-icon {
+    margin-top: 1.2rem;
+    width: 2rem ;
+  }
+  .banner .banner-center h2 {
+    font-weight: lighter;
+    color: #5A9A9F;
+    font-size: .6rem;
+    margin-top: .4rem;
+    font-family: "������ͤ��ϸ�ڼ���";
+  }
+  .banner .banner-center p {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: .4rem;
+    color: #5A9A9F;
+    font-size: .24rem;
+    line-height: .5rem;
+  }
+  .banner .banner-center .download {
+    width: 3rem;
+    height: .8rem;
+    border: 1px solid #5B9BA0;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: transparent;
+    transition: all .4s ease;
+  }
+  .banner .banner-center .download:hover {
+    background: #e7e7e7;
+  }
+  .banner .banner-center .download img {
+    position: relative;
+    left: -3px;
+    width: .35rem;
+  }
+  .banner .banner-center .download span {
+    position: relative;
+    left: 3px;
+    top: -2px;
+    color: #5A9A9F;
+    font-size: .22rem;
+  }
+  .banner .banner-center .github {
+    width: 109px;
+    height: 37px;
+    background: #5B9BA0;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 37px;
+    color: white;
+    font-size: 18px;
+  }
+  .banner .banner-center .github img {
+    position: relative;
+    top: 5px;
+    margin-left: -3px;
+    margin-right: 3px;
+  }
+  .content {
+    margin: 0 auto;
+    width: 92%;
+    height: auto;
+    box-shadow: 0 0 15px #acacac;
+    margin-top: -0.8rem;
+    background: white;
+    padding: 10px .3rem;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .content ul {
+    overflow: hidden;
+  }
+  .content ul li {
+    margin-top: .4rem;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+  }
+  .content ul li.flr .ner .code-box {
+    float: right;
+  }
+  .content ul li.w100 .ner {
+    width: 100%;
+  }
+  .content ul li.w100 .ner .code-box {
+    width: 100%;
+  }
+  .content ul li h3 {
+    color: #137077;
+    height: auto;
+    line-height: .4rem;
+    font-weight: 500;
+    padding-left: .15rem;
+    font-size: .3rem;
+    border-left: 3px solid #137077;
+  }
+  .content ul li .ner {
+    overflow: hidden;
+    margin-top: 35px;
+  }
+  .content ul li .ner .code-box {
+    width: 100%;
+    padding: .2rem .35rem;
+    box-sizing: border-box;
+    background: url("../img/code-bg.jpg") repeat;
+    background-size: auto 100%;
+    float: left;
+  }
+  .content ul li .ner .code-box pre {
+    width: 100%;
+    font-size: .2rem;
+    line-height: .4rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #59999F;
+  }
+  .content ul li .ner .code-box pre span {
+    font-size: .2rem;
+  }
+  .content ul li .ner .code-box pre span.red {
+    font-size: .2rem;
+    color: #FF3F00;
+    font-weight: bold;
+  }
+  .content ul li .ner .code-box pre span.yellow {
+    font-size: .2rem;
+    font-weight: bold;
+    color: #FFBF00;
+  }
+  .content ul li .ner .effect {
+    width: 100%;
+    float: left;
+  }
+  .content ul li .ner .effect img {
+    width: 100%;
+  }
+}

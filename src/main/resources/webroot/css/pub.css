@@ -1,0 +1,427 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  font-family: "微软雅黑";
+}
+ul {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+html,
+body {
+  font-size: 100px;
+}
+@media (max-width: 1024px) {
+  html,
+  body {
+    font-size: 136.533px;
+  }
+}
+@media (max-width: 840px) {
+  html,
+  body {
+    font-size: 112px;
+  }
+}
+@media (max-width: 750px) {
+  html,
+  body {
+    font-size: 100px;
+  }
+}
+@media (max-width: 600px) {
+  html,
+  body {
+    font-size: 80px;
+  }
+}
+@media (max-width: 520px) {
+  html,
+  body {
+    font-size: 69.333px;
+  }
+}
+@media (max-width: 460px) {
+  html,
+  body {
+    font-size: 61.3323px;
+  }
+}
+@media (max-width: 414px) {
+  html,
+  body {
+    font-size: 55.2px;
+  }
+}
+@media (max-width: 390px) {
+  html,
+  body {
+    font-size: 52px;
+  }
+}
+@media (max-width: 375px) {
+  html,
+  body {
+    font-size: 50px;
+  }
+}
+@media (max-width: 360px) {
+  html,
+  body {
+    font-size: 48px;
+  }
+}
+@media (max-width: 320px) {
+  html,
+  body {
+    font-size: 42.666px;
+  }
+}
+.header {
+  width: 100%;
+  height: 89px;
+  background: #ffffff;
+}
+.header .menu-icon {
+  position: absolute;
+  width: 35px;
+  right: 3%;
+  top: 15px;
+  display: none;
+}
+.header .header-center {
+  width: 1200px;
+  height: 89px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.header .header-center h1 {
+  float: left;
+  line-height: 89px;
+}
+.header .header-center h1 img {
+  vertical-align: middle;
+}
+.header .header-center .nav {
+  float: right;
+  overflow: hidden;
+}
+.header .header-center .nav li {
+  width: auto;
+  height: 89px;
+  margin-left: -1px;
+  float: left;
+  text-align: center;
+}
+.header .header-center .nav li:first-child {
+  margin-left: 0;
+}
+.header .header-center .nav li:hover {
+  background: url("../img/nav-act-bg.jpg") repeat;
+}
+.header .header-center .nav li:hover a {
+  box-sizing: border-box;
+  border-top: 2px solid #137077;
+  background: url("../img/nav-act-bor.jpg") left no-repeat, url("../img/nav-act-bor.jpg") right no-repeat, url("../img/nav-act-bicon.jpg") bottom no-repeat;
+}
+.header .header-center .nav li.act {
+  background: url("../img/nav-act-bg.jpg") repeat;
+}
+.header .header-center .nav li.act a {
+  box-sizing: border-box;
+  border-top: 2px solid #137077;
+  background: url("../img/nav-act-bor.jpg") left no-repeat, url("../img/nav-act-bor.jpg") right no-repeat, url("../img/nav-act-bicon.jpg") bottom no-repeat;
+}
+.header .header-center .nav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0 22px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-top: 2px solid transparent;
+}
+.header .header-center .nav li a b {
+  text-align: center;
+  display: block;
+  color: #C7C7C7;
+  margin-top: 22px;
+  font-size: 14px;
+}
+.header .header-center .nav li a span {
+  display: block;
+  margin-top: 5px;
+  color: #137077;
+  font-size: 16px;
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  height: 275px;
+  margin-top: 45px;
+  background: #081839;
+}
+.footer .about {
+  width: 100%;
+  height: 240px;
+}
+.footer .about .about-center {
+  width: 1200px;
+  height: 240px;
+  margin: 0 auto;
+  padding-top: 35px;
+  box-sizing: border-box;
+}
+.footer .about .about-center .left-txt {
+  float: left;
+  width: 760px;
+}
+.footer .about .about-center .left-txt h3 {
+  color: #5A9A9F;
+  font-size: 24px;
+  font-weight: 500;
+  width: 100%;
+  border-bottom: 1px solid #203E57;
+  padding-bottom: 15px;
+}
+.footer .about .about-center .left-txt h3 span {
+  font-size: 24px;
+  color: #203E57;
+  margin-left: 10px;
+  position: relative;
+  top: 3px;
+}
+.footer .about .about-center .left-txt p {
+  width: 100%;
+  color: #59999F;
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.footer .about .about-center .right-way {
+  width: 300px;
+  float: left;
+  margin-left: 75px;
+}
+.footer .about .about-center .right-way h4 {
+  color: #59999F;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer .about .about-center .right-way ul {
+  overflow: hidden;
+  margin-top: 25px;
+}
+.footer .about .about-center .right-way ul li {
+  float: left;
+  margin-right: 24px;
+}
+.footer .about .about-center .right-way p {
+  color: #59999F;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer .about .about-center .right-way p img {
+  position: relative;
+  left: -4px;
+  top: 3px;
+  margin-right: 5px;
+}
+.footer .copy {
+  width: 100%;
+  height: 30px;
+  background: #5A9A9F;
+  text-align: center;
+  line-height: 30px;
+  color: #071839;
+  font-size: 16px;
+}
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    position: relative;
+  }
+  .header .menu-icon {
+    position: absolute;
+    width: 35px;
+    right: 3%;
+    top: 15px;
+    display: block;
+  }
+  .header .header-center {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0;
+    box-sizing: border-box;
+  }
+  .header .header-center h1 {
+    width: 100%;
+    height: 65px;
+    float: none;
+    padding: 0 3%;
+    box-sizing: border-box;
+    line-height: 65px;
+  }
+  .header .header-center h1 img {
+    height: 35px;
+    vertical-align: middle;
+  }
+  .header .header-center .nav {
+    float: none;
+    display: none;
+    overflow: hidden;
+  }
+  .header .header-center .nav li {
+    width: 100%;
+    height: 65px;
+    margin-left: 0;
+    float: none;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: center;
+  }
+  .header .header-center .nav li:first-child {
+    margin-left: 0;
+  }
+  .header .header-center .nav li:hover {
+    background: url("../img/nav-act-bg.jpg") repeat;
+    background-size: auto 100%;
+  }
+  .header .header-center .nav li:hover a {
+    box-sizing: border-box;
+    border-top: 2px solid #137077;
+    background: url("../img/nav-act-bicon.jpg") bottom no-repeat;
+  }
+  .header .header-center .nav li.act {
+    background: url("../img/nav-act-bg.jpg") repeat;
+  }
+  .header .header-center .nav li.act a {
+    box-sizing: border-box;
+    border-top: 2px solid #137077;
+    background: url("../img/nav-act-bicon.jpg") bottom no-repeat;
+  }
+  .header .header-center .nav li a {
+    display: block;
+    width: 100%;
+    height: 66px;
+    text-align: center;
+    padding: 0 22px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-top: 2px solid transparent;
+  }
+  .header .header-center .nav li a b {
+    text-align: center;
+    display: block;
+    color: #C7C7C7;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .header .header-center .nav li a span {
+    display: block;
+    margin-top: 3px;
+    color: #137077;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 45px;
+    background: #081839;
+  }
+  .footer .about {
+    width: 100%;
+    height: auto;
+  }
+  .footer .about .about-center {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 35px;
+    box-sizing: border-box;
+  }
+  .footer .about .about-center .left-txt {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer .about .about-center .left-txt h3 {
+    color: #5A9A9F;
+    font-size: .43rem;
+    font-weight: 500;
+    width: 100%;
+    border-bottom: 1px solid #203E57;
+    padding-bottom: 15px;
+  }
+  .footer .about .about-center .left-txt h3 span {
+    font-size: .35rem;
+    color: #203E57;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+  }
+  .footer .about .about-center .left-txt p {
+    width: 100%;
+    color: #59999F;
+    font-size: 14px;
+    line-height: .5rem;
+    margin-top: 10px;
+  }
+  .footer .about .about-center .right-way {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: .3rem;
+  }
+  .footer .about .about-center .right-way h4 {
+    color: #59999F;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footer .about .about-center .right-way ul {
+    overflow: hidden;
+    margin-top: 25px;
+  }
+  .footer .about .about-center .right-way ul li {
+    float: left;
+    margin-right: 24px;
+  }
+  .footer .about .about-center .right-way p {
+    color: #59999F;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .footer .about .about-center .right-way p img {
+    position: relative;
+    left: -4px;
+    top: 3px;
+    margin-right: 5px;
+  }
+  .footer .copy {
+    width: 100%;
+    height: 30px;
+    background: #5A9A9F;
+    text-align: center;
+    line-height: 30px;
+    color: #071839;
+    font-size: .24rem;
+  }
+}

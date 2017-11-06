@@ -1,0 +1,217 @@
+
+// banner
+.dow-cont{
+  width: 100%;
+  height: 970px;
+  background: #081839 url("../img/banner-bg.jpg") center bottom no-repeat;
+  .banner-center{
+    width: 1200px;
+    height: 715px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    .banner-icon{
+      margin-top: 110px;
+    }
+    h2{
+      font-weight: lighter;
+      color: #5A9A9F;
+      font-size: 60px;
+      margin-top: 22px;
+      font-family: "方正兰亭超细黑简体";
+    }
+    p{
+      width: 706px;
+      margin: 0 auto;
+      margin-top: 22px;
+      color: #5A9A9F;
+      font-size: 26px;
+      line-height: 52px;
+    }
+    .github{
+      width: 109px;
+      height: 37px;
+      background: #5B9BA0;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 37px;
+      color: white;
+      font-size: 18px;
+      img{
+        position: relative;
+        top: 5px;
+        margin-left: -3px;
+        margin-right: 3px;
+      }
+    }
+    ul{
+      margin-top: 60px;
+      text-align: center;
+      li{
+        width: 273px ;
+        overflow: hidden;
+        height: 297px;
+        margin: 0 30px;
+        display: inline-block;
+        background: url("../img/dow-bk-bj.png");
+        text-align: center;
+        .lo-div{
+          height: 145px;
+          img{
+            margin-top: 40px;
+          }
+        }
+        b{
+          color: #081839;
+          display: block;
+          font-size: 20px;
+        }
+        .download{
+          width: 188px;
+          height: 45px;
+          border: 1px solid #081839;
+          border-radius: 10px;
+          display: block;
+          margin: 0 auto;
+          margin-top: 45px;
+          background: transparent;
+          line-height: 45px;
+          transition: all .4s ease;
+          &:hover{
+            background: #e7e7e7;
+          }
+          img{
+            position: relative;
+            left: -3px;
+          }
+          span{
+            position: relative;
+            left: 3px;
+            top: -2px;
+            color: #081839;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+.footer{
+  margin-top: 15px;
+}
+
+@media (max-width: 1024px) {
+  .dow-cont{
+    width: 100%;
+    height: auto;
+    background: #081839 url("../img/banner-bg.jpg") center bottom no-repeat;
+    .banner-center{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 1.6rem;
+      overflow: hidden;
+      .banner-icon{
+        margin-top: 1.2rem;
+        width: 2rem ;
+      }
+      h2{
+        font-weight: lighter;
+        color: #5A9A9F;
+        font-size: .6rem;
+        margin-top: .4rem;
+        font-family: "方正兰亭超细黑简体";
+      }
+      p{
+        width: 706px;
+        margin: 0 auto;
+        margin-top: 22px;
+        color: #5A9A9F;
+        font-size: 26px;
+        line-height: 52px;
+      }
+      .github{
+        width: 109px;
+        height: 37px;
+        background: #5B9BA0;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 37px;
+        color: white;
+        font-size: 18px;
+        img{
+          position: relative;
+          top: 5px;
+          margin-left: -3px;
+          margin-right: 3px;
+        }
+      }
+      ul{
+        width: 94%;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        li{
+          width: 31%;
+          overflow: hidden;
+          height: auto;
+          margin: 0 0;
+          margin-left: 2%;
+          float: left;
+          display: inline-block;
+          background: url("../img/dow-bk-bj.png");
+          background-size: 100% 100%;
+          text-align: center;
+          padding-bottom: .2rem;
+          &:first-child{
+            margin-left: 1%;
+          }
+          .lo-div{
+            height: 1.5rem;
+            img{
+              margin-top: .4rem;
+              width: 35%;
+            }
+          }
+          b{
+            color: #081839;
+            display: block;
+            font-size: .2rem;
+          }
+          .download{
+            width: 90%;
+            height: .6rem;
+            border: 1px solid #081839;
+            border-radius: .3rem;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            background: transparent;
+            line-height: 0;
+            transition: all .4s ease;
+            &:hover{
+              background: #e7e7e7;
+            }
+            img{
+              width: .35rem;
+            }
+            span{
+              position: relative;
+              left: 3px;
+              top: -3px;
+              color: #081839;
+              font-size: .22rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

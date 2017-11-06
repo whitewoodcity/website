@@ -1,0 +1,397 @@
+.banner {
+  width: 100%;
+  height: 270px;
+  background: #081839 url("../img/doc-banner.jpg") center bottom no-repeat;
+}
+.banner .banner-center {
+  width: 1200px;
+  height: 270px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+.banner .banner-center .banner-icon {
+  margin-top: 25px;
+  width: 85px;
+}
+.banner .banner-center h2 {
+  font-weight: lighter;
+  color: #5A9A9F;
+  font-size: 50px;
+  margin-top: 5px;
+  font-family: "方正兰亭超细黑简体";
+}
+.banner .banner-center p {
+  width: 706px;
+  margin: 0 auto;
+  margin-top: 22px;
+  color: #5A9A9F;
+  font-size: 26px;
+  line-height: 52px;
+}
+.banner .banner-center .github {
+  width: 109px;
+  height: 37px;
+  background: #5B9BA0;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 37px;
+  color: white;
+  font-size: 18px;
+}
+.banner .banner-center .github img {
+  position: relative;
+  top: 5px;
+  margin-left: -3px;
+  margin-right: 3px;
+}
+.banner .banner-center .download {
+  width: 188px;
+  height: 45px;
+  border: 1px solid #5B9BA0;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: transparent;
+  transition: all .4s ease;
+}
+.banner .banner-center .download:hover {
+  background: #e7e7e7;
+}
+.banner .banner-center .download img {
+  position: relative;
+  left: -3px;
+}
+.banner .banner-center .download span {
+  position: relative;
+  left: 3px;
+  top: -2px;
+  color: #5A9A9F;
+  font-size: 20px;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content ul li {
+  margin-top: 25px;
+}
+.content ul li h3 {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #137077;
+  color: #137077;
+  font-size: 24px;
+  font-weight: 500;
+  background: url("../img/doc-jt.jpg") no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.content ul li p {
+  width: 1170px;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 25px;
+}
+.content ul li .code-box {
+  width: 100%;
+  padding: 20px 35px;
+  box-sizing: border-box;
+  background: url("../img/code-bg.jpg") repeat;
+  background-size: auto 100%;
+  margin-top: 15px;
+}
+.content ul li .code-box pre {
+  width: 100%;
+  font-size: 16px;
+  line-height: 23px;
+  color: #5A5A5A;
+}
+.content ul li .code-box pre span {
+  font-size: 16px;
+}
+.content ul li .code-box pre span.red {
+  font-size: 16px;
+  color: #FF3F00;
+  font-weight: bold;
+}
+.content ul li .code-box pre span.yellow {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFBF00;
+}
+.content ul li .code-box pre span.blue {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0254AE;
+}
+.content ul li dl {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.content ul li dl dd {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.content ul li .img-cont {
+  width: 100%;
+  margin-top: 15px;
+}
+.content ul li .img-cont img {
+  max-width: 100%;
+}
+.content ul li .href {
+  font-size: 16px;
+  color: #137077;
+}
+.content ul li .href.borb {
+  text-decoration: underline;
+}
+.content ul li .table-cont {
+  width: 100%;
+  margin-top: 20px;
+}
+.content ul li .table-cont table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.content ul li .table-cont table thead tr th {
+  line-height: 42px;
+  height: 42px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+.content ul li .table-cont table thead tr th.left {
+  text-align: left;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.content ul li .table-cont table tbody tr:nth-child(2n) {
+  background: #E4F3F3;
+}
+.content ul li .table-cont table tbody tr td {
+  border: 1px solid #dddddd;
+  font-size: 16px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+}
+.content ul li .table-cont table tbody tr td.left {
+  text-align: left;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+  .banner {
+    width: 100%;
+    height: auto;
+    padding-bottom: .5rem;
+    background: #081839 url("../img/doc-banner.jpg") center bottom no-repeat;
+  }
+  .banner .banner-center {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  .banner .banner-center .banner-icon {
+    margin-top: 25px;
+    width: 85px;
+  }
+  .banner .banner-center h2 {
+    font-weight: lighter;
+    color: #5A9A9F;
+    font-size: .7rem;
+    margin-top: 5px;
+    font-family: "方正兰亭超细黑简体";
+  }
+  .banner .banner-center p {
+    width: 706px;
+    margin: 0 auto;
+    margin-top: 22px;
+    color: #5A9A9F;
+    font-size: 26px;
+    line-height: 52px;
+  }
+  .banner .banner-center .download {
+    width: 3rem;
+    height: .8rem;
+    border: 1px solid #5B9BA0;
+    border-radius: .2rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: transparent;
+    transition: all .4s ease;
+  }
+  .banner .banner-center .download:hover {
+    background: #e7e7e7;
+  }
+  .banner .banner-center .download img {
+    position: relative;
+    left: -3px;
+    width: .35rem;
+  }
+  .banner .banner-center .download span {
+    position: relative;
+    left: 3px;
+    top: -2px;
+    color: #5A9A9F;
+    font-size: .22rem;
+  }
+  .banner .banner-center .github {
+    width: 109px;
+    height: 37px;
+    background: #5B9BA0;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 37px;
+    color: white;
+    font-size: 18px;
+  }
+  .banner .banner-center .github img {
+    position: relative;
+    top: 5px;
+    margin-left: -3px;
+    margin-right: 3px;
+  }
+  .content {
+    width: 94%;
+    margin: 0 auto;
+  }
+  .content ul li {
+    margin-top: .3rem;
+  }
+  .content ul li h3 {
+    margin-top: 10px;
+    width: 100%;
+    height: .7rem;
+    line-height: .7rem;
+    border-bottom: 1px solid #137077;
+    color: #137077;
+    font-size: .45rem;
+    font-weight: 500;
+    background: url("../img/doc-jt.jpg") no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .content ul li p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: .16rem;
+    margin-top: .2rem;
+    line-height: .45rem;
+  }
+  .content ul li .code-box {
+    width: 100%;
+    padding: .2rem .35rem;
+    box-sizing: border-box;
+    background: url("../img/code-bg.jpg") repeat;
+    background-size: auto 100%;
+  }
+  .content ul li .code-box pre {
+    width: 100%;
+    font-size: .2rem;
+    line-height: .4rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #59999F;
+  }
+  .content ul li .code-box pre span {
+    font-size: .2rem;
+  }
+  .content ul li .code-box pre span.red {
+    font-size: .2rem;
+    color: #FF3F00;
+    font-weight: bold;
+  }
+  .content ul li .code-box pre span.yellow {
+    font-size: .2rem;
+    font-weight: bold;
+    color: #FFBF00;
+  }
+  .content ul li .code-box pre span.blue {
+    font-size: .2rem;
+    font-weight: bold;
+    color: #0254AE;
+  }
+  .content ul li dl {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .content ul li dl dd {
+    font-size: .16rem;
+    margin-top: .1rem;
+  }
+  .content ul li .img-cont {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .content ul li .img-cont img {
+    max-width: 100%;
+  }
+  .content ul li .href {
+    font-size: .16rem;
+    color: #137077;
+  }
+  .content ul li .href.borb {
+    text-decoration: underline;
+  }
+  .content ul li .table-cont {
+    width: auto;
+    overflow: auto;
+    margin-top: 20px;
+  }
+  .content ul li .table-cont table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .content ul li .table-cont table thead tr th {
+    height: .35rem;
+    line-height: .35rem;
+    font-size: .16rem;
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: .2rem .1rem;
+  }
+  .content ul li .table-cont table thead tr th.left {
+    text-align: left;
+    padding-left: .2rem;
+    box-sizing: border-box;
+  }
+  .content ul li .table-cont table tbody tr:nth-child(2n) {
+    background: #E4F3F3;
+  }
+  .content ul li .table-cont table tbody tr td {
+    border: 1px solid #dddddd;
+    font-size: .16rem;
+    height: .25rem;
+    line-height: .25rem;
+    text-align: center;
+    padding: .2rem .1rem;
+  }
+  .content ul li .table-cont table tbody tr td.left {
+    text-align: left;
+    padding-left: .2rem;
+    box-sizing: border-box;
+  }
+}
+.footer {
+  margin-top: 35px;
+}
