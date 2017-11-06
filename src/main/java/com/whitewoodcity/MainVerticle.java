@@ -1,10 +1,12 @@
 package com.whitewoodcity;
 
 import io.vertx.core.AbstractVerticle;
+import io.vertx.core.Vertx;
 
-public class MainVerticle extends AbstractVerticle {
+public class MainVerticle extends AbstractVerticle{//
     public void start() {
-        System.out.println(111);
-//        vertx.deployVerticle(MyFirstVerticle.class.getName());
+//        vertx.deployVerticle("scala:com.whitewoodcity.TestServer");
+//        vertx.deployVerticle("kotlin:com.whitewoodcity.WebsiteVerticle");
+        vertx.deployVerticle("verticles/test_server.groovy");
     }
 }
