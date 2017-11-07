@@ -1,3 +1,5 @@
+package verticles
+
 import io.vertx.core.Vertx
 
 Vertx vertx = vertx

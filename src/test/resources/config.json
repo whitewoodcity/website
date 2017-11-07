@@ -1,0 +1,12 @@
+{
+  "web":{
+    "port":8080
+  },
+  "db":{
+    "host":"127.0.0.1",
+    "username":"myname",
+    "password":"123456",
+    "database":"dbname",
+    "maxPoolSize":20
+  }
+}
