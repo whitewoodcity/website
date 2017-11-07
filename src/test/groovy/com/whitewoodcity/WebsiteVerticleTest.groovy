@@ -16,7 +16,7 @@ import org.junit.runner.RunWith
 
 @RunWith(VertxUnitRunner.class)
 class WebsiteVerticleTest{
-    static Vertx vertx
+    static Vertx vertx = Vertx.vertx()
 
     @BeforeClass
     static void setup(TestContext context){
@@ -28,8 +28,6 @@ class WebsiteVerticleTest{
 
         ConfigRetrieverOptions options = new ConfigRetrieverOptions()
                 .addStore(fileStore)
-
-        vertx = Vertx.vertx()
 
         ConfigRetriever retriever = ConfigRetriever.create(vertx, options)
 
@@ -46,6 +44,7 @@ class WebsiteVerticleTest{
 
     @Test
     void test(TestContext context){
+
         Async async = context.async()
         vertx.createHttpClient().getNow(8080, "localhost", "/") {response ->
             response.handler{body ->
