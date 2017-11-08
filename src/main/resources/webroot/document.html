@@ -103,7 +103,7 @@
                 <dd>名词元素用于定义以及描述页面成员。</dd>
                 <dd>1、JSON</dd>
                 <dd>2、Preload</dd>
-                <dd>2、CSS</dd>
+                <dd>3、CSS</dd>
             </dl>
         </li>
         <li>
@@ -703,12 +703,12 @@
 
             <p>当前有两类动词元素：</p>
             <dl>
-                <dd>1、<a class="href borb" href="#">Script</a></dd>
-                <dd>2、<a class="href borb" href="#">Class</a></dd>
+                <dd>1、<a class="href borb" href="#script">Script</a></dd>
+                <dd>2、<a class="href borb" href="#class">Class</a></dd>
             </dl>
         </li>
         <li>
-            <h3>Script</h3>
+            <span name="script"><h3>Script</h3></span>
 
             <p>放置在script元素中的是一段解释型（而非编译型）脚本语言。针对超级浏览器运行环境打造。其主要用途是制作在线程序，包括动画以及在线视频游戏等。当前超级浏览器支持3种脚本语言： <a
                     class="href borb" href="#">Javascript</a>, <a class="href borb" href="#">Ruby</a> and <a
@@ -1210,7 +1210,7 @@
             </div>
         </li>
         <li>
-            <h3>Class</h3>
+            <span name="class"><h3>Class</h3></span>
             <p>缺省状况下，脚本执行时长控制为10秒，10秒后系统将会尝试介入线程执行，12秒后系统将会强行打断线程执行。脚本执行时长建议控制在10秒以内，但有时浏览器需要超过10秒以上的执行时长，例如视频游戏。此时开发者应使用animation timer定时器以执行程序。</p>
             <div class="code-box">
 <pre>
